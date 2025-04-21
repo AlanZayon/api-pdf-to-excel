@@ -14,7 +14,7 @@ app.use(helmet());
 app.use(compression());
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://meusite.com',
+  'https://front-pdf-to-excel.vercel.app',
   'https://admin.meusite.com',
 ];
 

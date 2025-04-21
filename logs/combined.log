@@ -1,0 +1,285 @@
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744753492975-ZAYON.pdf","timestamp":"2025-04-15T21:44:52.985Z"}
+{"file":"uploads/1744753492975-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T21:44:52.994Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T21:44:53.200Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T21:44:53.201Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744753621254-ZAYON.pdf","timestamp":"2025-04-15T21:47:01.257Z"}
+{"file":"uploads/1744753621254-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T21:47:01.258Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T21:47:01.410Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T21:47:01.411Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744753704774-ZAYON.pdf","timestamp":"2025-04-15T21:48:24.777Z"}
+{"file":"uploads/1744753704774-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T21:48:24.779Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T21:48:25.060Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T21:48:25.061Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744753894447-ZAYON.pdf","timestamp":"2025-04-15T21:51:34.451Z"}
+{"file":"uploads/1744753894447-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T21:51:34.453Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T21:51:34.581Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T21:51:34.582Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744754889990-ZAYON.pdf","timestamp":"2025-04-15T22:08:09.994Z"}
+{"file":"uploads/1744754889990-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:08:09.998Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:08:10.154Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:08:10.154Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744755408448-ZAYON.pdf","timestamp":"2025-04-15T22:16:48.451Z"}
+{"file":"uploads/1744755408448-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:16:48.454Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:16:48.626Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:16:48.627Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744755695656-ZAYON.pdf","timestamp":"2025-04-15T22:21:35.661Z"}
+{"file":"uploads/1744755695656-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:21:35.663Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:21:35.818Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:21:35.819Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744755971596-ZAYON.pdf","timestamp":"2025-04-15T22:26:11.599Z"}
+{"file":"uploads/1744755971596-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:26:11.602Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:26:11.744Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:26:11.745Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744756546118-ZAYON.pdf","timestamp":"2025-04-15T22:35:46.122Z"}
+{"file":"uploads/1744756546118-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:35:46.124Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:35:46.306Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:35:46.307Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744756908278-ZAYON.pdf","timestamp":"2025-04-15T22:41:48.282Z"}
+{"file":"uploads/1744756908278-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:41:48.285Z"}
+{"error":{},"filePath":"uploads/1744756908278-ZAYON.pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-15T22:41:48.445Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744757108384-ZAYON.pdf","timestamp":"2025-04-15T22:45:08.387Z"}
+{"file":"uploads/1744757108384-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:45:08.390Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:45:08.526Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:45:08.527Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744757323544-ZAYON.pdf","timestamp":"2025-04-15T22:48:43.547Z"}
+{"file":"uploads/1744757323544-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:48:43.549Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:48:43.707Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:48:43.707Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744757596557-ZAYON.pdf","timestamp":"2025-04-15T22:53:16.560Z"}
+{"file":"uploads/1744757596557-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:53:16.562Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:53:16.707Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:53:16.708Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744757812886-ZAYON.pdf","timestamp":"2025-04-15T22:56:52.889Z"}
+{"file":"uploads/1744757812886-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:56:52.891Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:56:53.021Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:56:53.022Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744757903214-ZAYON.pdf","timestamp":"2025-04-15T22:58:23.217Z"}
+{"file":"uploads/1744757903214-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T22:58:23.219Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T22:58:23.361Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T22:58:23.362Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744758354260-ZAYON.pdf","timestamp":"2025-04-15T23:05:54.263Z"}
+{"file":"uploads/1744758354260-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T23:05:54.265Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T23:05:54.411Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T23:05:54.412Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744758481251-ZAYON.pdf","timestamp":"2025-04-15T23:08:01.255Z"}
+{"file":"uploads/1744758481251-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T23:08:01.258Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T23:08:01.415Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T23:08:01.416Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744758761630-ZAYON.pdf","timestamp":"2025-04-15T23:12:41.635Z"}
+{"file":"uploads/1744758761630-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T23:12:41.638Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T23:12:41.907Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T23:12:41.909Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744758778466-ZAYON.pdf","timestamp":"2025-04-15T23:12:58.470Z"}
+{"file":"uploads/1744758778466-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T23:12:58.470Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T23:12:58.541Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T23:12:58.542Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744759483104-ZAYON.pdf","timestamp":"2025-04-15T23:24:43.109Z"}
+{"file":"uploads/1744759483104-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T23:24:43.112Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T23:24:43.280Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T23:24:43.281Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1744759694840-ZAYON.pdf","timestamp":"2025-04-15T23:28:14.844Z"}
+{"file":"uploads/1744759694840-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-15T23:28:14.846Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-15T23:28:15.011Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-15T23:28:15.012Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745169476448-ZAYON.pdf","timestamp":"2025-04-20T17:17:56.451Z"}
+{"file":"uploads/1745169476448-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-20T17:17:56.453Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-20T17:17:56.619Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-20T17:17:56.620Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745170816673-ZAYON.pdf","timestamp":"2025-04-20T17:40:16.677Z"}
+{"file":"uploads/1745170816673-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-20T17:40:16.681Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-20T17:40:16.845Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-20T17:40:16.845Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745171151490-ZAYON.pdf","timestamp":"2025-04-20T17:45:51.494Z"}
+{"file":"uploads/1745171151490-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-20T17:45:51.497Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-20T17:45:51.660Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-20T17:45:51.661Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745172867843-ZAYON.pdf","timestamp":"2025-04-20T18:14:27.850Z"}
+{"file":"uploads/1745172867843-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-20T18:14:27.859Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-20T18:14:28.089Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-20T18:14:28.089Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745173060961-ZAYON.pdf","timestamp":"2025-04-20T18:17:40.964Z"}
+{"file":"uploads/1745173060961-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-20T18:17:40.966Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-20T18:17:41.114Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-20T18:17:41.115Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745173445455-ZAYON.pdf","timestamp":"2025-04-20T18:24:05.461Z"}
+{"file":"uploads/1745173445455-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-20T18:24:05.467Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-20T18:24:05.681Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-20T18:24:05.681Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745194544951-ZAYON.pdf","timestamp":"2025-04-21T00:15:44.957Z"}
+{"file":"uploads/1745194544951-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T00:15:44.961Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T00:15:45.146Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T00:15:45.147Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745251649514-ZAYON.pdf","timestamp":"2025-04-21T16:07:29.521Z"}
+{"file":"uploads/1745251649514-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T16:07:29.523Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T16:07:29.731Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T16:07:29.731Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745251739907-ZAYON.pdf","timestamp":"2025-04-21T16:08:59.949Z"}
+{"file":"uploads/1745251739907-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T16:08:59.953Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T16:09:00.320Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T16:09:00.321Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745251884280-ZAYON.pdf","timestamp":"2025-04-21T16:11:24.283Z"}
+{"file":"uploads/1745251884280-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T16:11:24.285Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T16:11:24.441Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T16:11:24.442Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745253386304-ZAYON.pdf","timestamp":"2025-04-21T16:36:26.307Z"}
+{"file":"uploads/1745253386304-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T16:36:26.318Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T16:36:26.537Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T16:36:26.538Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745253621276-ZAYON.pdf","timestamp":"2025-04-21T16:40:21.280Z"}
+{"file":"uploads/1745253621276-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T16:40:21.283Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T16:40:21.445Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T16:40:21.446Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745254412409-ZAYON.pdf","timestamp":"2025-04-21T16:53:32.436Z"}
+{"file":"uploads/1745254412409-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T16:53:32.471Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T16:53:32.881Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T16:53:32.884Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745254729868-ZAYON.pdf","timestamp":"2025-04-21T16:58:49.879Z"}
+{"file":"uploads/1745254729868-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T16:58:49.884Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T16:58:50.017Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T16:58:50.017Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745254871805-ZAYON.pdf","timestamp":"2025-04-21T17:01:11.809Z"}
+{"file":"uploads/1745254871805-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T17:01:11.810Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T17:01:11.871Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T17:01:11.872Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745254888705-ZAYON.pdf","timestamp":"2025-04-21T17:01:28.791Z"}
+{"file":"uploads/1745254888705-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T17:01:28.792Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T17:01:28.898Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T17:01:28.898Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745255006393-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T17:03:26.395Z"}
+{"file":"uploads/1745255006393-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T17:03:26.395Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T17:03:26.436Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T17:03:26.436Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745258163163-ZAYON.pdf","timestamp":"2025-04-21T17:56:03.175Z"}
+{"file":"uploads/1745258163163-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T17:56:03.197Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T17:56:03.527Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T17:56:03.528Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745258311828-ZAYON.pdf","timestamp":"2025-04-21T17:58:31.831Z"}
+{"file":"uploads/1745258311828-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T17:58:31.833Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T17:58:31.979Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T17:58:31.979Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745259067851-ZAYON.pdf","timestamp":"2025-04-21T18:11:07.853Z"}
+{"file":"uploads/1745259067851-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T18:11:07.854Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T18:11:07.924Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T18:11:07.924Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745259195995-ZAYON.pdf","timestamp":"2025-04-21T18:13:15.999Z"}
+{"file":"uploads/1745259195995-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T18:13:15.999Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T18:13:16.062Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T18:13:16.063Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745259970892-ZAYON.pdf","timestamp":"2025-04-21T18:26:10.903Z"}
+{"file":"uploads/1745259970892-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T18:26:10.906Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T18:26:11.163Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T18:26:11.165Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745260434314-ZAYON.pdf","timestamp":"2025-04-21T18:33:54.365Z"}
+{"file":"uploads/1745260434314-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T18:33:54.369Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T18:33:54.595Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T18:33:54.596Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745260780385-ZAYON.pdf","timestamp":"2025-04-21T18:39:40.389Z"}
+{"file":"uploads/1745260780385-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T18:39:40.391Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T18:39:40.543Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T18:39:40.544Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745260965983-ZAYON.pdf","timestamp":"2025-04-21T18:42:45.989Z"}
+{"file":"uploads/1745260965983-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T18:42:45.994Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T18:42:46.161Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T18:42:46.162Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745262125756-ZAYON.pdf","timestamp":"2025-04-21T19:02:05.759Z"}
+{"file":"uploads/1745262125756-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:02:05.762Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:02:05.966Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:02:05.967Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745262314052-ZAYON.pdf","timestamp":"2025-04-21T19:05:14.056Z"}
+{"file":"uploads/1745262314052-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:05:14.058Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:05:14.206Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:05:14.207Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745262355666-ZAYON.pdf","timestamp":"2025-04-21T19:05:55.670Z"}
+{"file":"uploads/1745262355666-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:05:55.671Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:05:55.744Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:05:55.744Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745262521771-ZAYON.pdf","timestamp":"2025-04-21T19:08:41.774Z"}
+{"file":"uploads/1745262521771-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:08:41.777Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:08:41.972Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:08:41.973Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745262629792-ZAYON.pdf","timestamp":"2025-04-21T19:10:29.796Z"}
+{"file":"uploads/1745262629792-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:10:29.798Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:10:29.952Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:10:29.953Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745262790433-ZAYON.pdf","timestamp":"2025-04-21T19:13:10.435Z"}
+{"file":"uploads/1745262790433-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:13:10.436Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:13:10.515Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:13:10.516Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745263111588-ZAYON.pdf","timestamp":"2025-04-21T19:18:31.606Z"}
+{"file":"uploads/1745263111588-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:18:31.608Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:18:31.710Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:18:31.711Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745263244619-ZAYON.pdf","timestamp":"2025-04-21T19:20:44.624Z"}
+{"file":"uploads/1745263244619-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:20:44.624Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:20:44.683Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:20:44.683Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745263489461-ZAYON.pdf","timestamp":"2025-04-21T19:24:49.463Z"}
+{"file":"uploads/1745263489461-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:24:49.463Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:24:49.521Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:24:49.522Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745263497335-ZAYON.pdf","timestamp":"2025-04-21T19:24:57.338Z"}
+{"file":"uploads/1745263497335-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:24:57.338Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:24:57.426Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:24:57.426Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745263504556-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T19:25:04.601Z"}
+{"file":"uploads/1745263504556-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:25:04.602Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:25:04.627Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:25:04.627Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745263798894-ZAYON.pdf","timestamp":"2025-04-21T19:29:58.898Z"}
+{"file":"uploads/1745263798894-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:29:58.900Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:29:59.130Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:29:59.130Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745263806394-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T19:30:06.395Z"}
+{"file":"uploads/1745263806394-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:30:06.395Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:30:06.421Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:30:06.421Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745264465751-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T19:41:05.754Z"}
+{"file":"uploads/1745264465751-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:41:05.761Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T19:41:05.914Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T19:41:05.915Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745264673122-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T19:44:33.128Z"}
+{"file":"uploads/1745264673122-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:44:33.132Z"}
+{"error":{},"filePath":"uploads/1745264673122-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T19:44:33.246Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745264840561-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T19:47:20.565Z"}
+{"file":"uploads/1745264840561-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:47:20.566Z"}
+{"error":{},"filePath":"uploads/1745264840561-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T19:47:20.606Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745265089372-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T19:51:29.374Z"}
+{"file":"uploads/1745265089372-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:51:29.378Z"}
+{"error":{},"filePath":"uploads/1745265089372-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T19:51:29.499Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745265449159-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T19:57:29.166Z"}
+{"file":"uploads/1745265449159-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:57:29.169Z"}
+{"error":{},"filePath":"uploads/1745265449159-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T19:57:29.234Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745265580527-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T19:59:46.231Z"}
+{"file":"uploads/1745265580527-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T19:59:46.232Z"}
+{"error":{},"filePath":"uploads/1745265580527-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T19:59:47.749Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745265806575-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T20:03:26.584Z"}
+{"file":"uploads/1745265806575-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T20:03:26.590Z"}
+{"error":{},"filePath":"uploads/1745265806575-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T20:03:26.668Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745265892612-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T20:04:52.614Z"}
+{"file":"uploads/1745265892612-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T20:04:52.614Z"}
+{"error":{},"filePath":"uploads/1745265892612-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T20:04:52.666Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745265915991-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T20:05:15.995Z"}
+{"file":"uploads/1745265915991-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T20:05:15.995Z"}
+{"error":{},"filePath":"uploads/1745265915991-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T20:05:16.018Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745265927308-ZAYON.pdf","timestamp":"2025-04-21T20:05:27.312Z"}
+{"file":"uploads/1745265927308-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T20:05:27.312Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T20:05:27.454Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T20:05:27.455Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745265941336-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T20:05:41.338Z"}
+{"file":"uploads/1745265941336-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T20:05:41.340Z"}
+{"error":{},"filePath":"uploads/1745265941336-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T20:05:41.360Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745266014353-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","timestamp":"2025-04-21T20:06:54.355Z"}
+{"file":"uploads/1745266014353-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T20:06:54.355Z"}
+{"error":{},"filePath":"uploads/1745266014353-DECLARACAO-DE-AUSENCIA.pdf_29_assinado (1).pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-21T20:06:54.372Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745266023985-ZAYON.pdf","timestamp":"2025-04-21T20:07:03.986Z"}
+{"file":"uploads/1745266023985-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T20:07:03.987Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T20:07:04.066Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T20:07:04.067Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745266070496-ZAYON.pdf","timestamp":"2025-04-21T20:07:50.499Z"}
+{"file":"uploads/1745266070496-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T20:07:50.499Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T20:07:50.597Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T20:07:50.597Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745266637305-ZAYON.pdf","timestamp":"2025-04-21T20:17:17.313Z"}
+{"file":"uploads/1745266637305-ZAYON.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-21T20:17:17.316Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-21T20:17:17.462Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-21T20:17:17.463Z"}

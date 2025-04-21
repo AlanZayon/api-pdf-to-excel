@@ -41,6 +41,5 @@ export class ExcelGenerator {
     });
 
     await workbook.xlsx.writeFile(outputPath);
-    console.log(`Arquivo Excel salvo em: ${outputPath}`);
   }
 }

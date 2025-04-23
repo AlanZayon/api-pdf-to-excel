@@ -36,6 +36,11 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.get('/teste', (req, res) => {
+  console.log("Você acessou /teste");
+  res.send("ok");
+});
+
 app.use('/api', uploadRoutes);
 app.use('/api', downloadRoutes); 
 app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')));

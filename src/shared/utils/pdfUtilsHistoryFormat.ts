@@ -26,6 +26,7 @@ export function extrairHistorico(linha: string): string {
   }
 
   export function  agruparDescricoes(descricoes: string[]): string[] {
+    console.log("descricoes", descricoes);
     return Array.from(new Set(descricoes));
   }
   

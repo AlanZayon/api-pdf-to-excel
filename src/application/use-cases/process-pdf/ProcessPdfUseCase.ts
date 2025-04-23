@@ -21,12 +21,12 @@ export class ProcessPdfUseCase {
     }
 
     const outputPath = path.join(outputDir, 'relatorio.xlsx');
-    console.debug('result', result);
+    console.log('result', result);
 
     const formattedData = result.comprovantes.flatMap((comp) =>
-      comp.descricoes.map((descricao) => ({
+      comp.descricoes.map((descricao,index) => ({
         dataDeArrecadacao: comp.dataArrecadacao,
-        debito: comp.debito,
+        debito: comp.debito[index] ?? 0,
         credito: comp.credito,
         total: comp.total,
         descricao,

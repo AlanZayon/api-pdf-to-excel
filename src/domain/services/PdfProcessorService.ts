@@ -5,7 +5,7 @@ import { extrairHistorico, mapearDebito, agruparDescricoes } from '../../shared/
 
 export interface ComprovanteData {
   dataArrecadacao: string;
-  debito: number;
+  debito: number[];
   credito: number;
   total: string;
   descricoes: string[];
@@ -26,6 +26,7 @@ export class PdfProcessorService {
     let current: Partial<ComprovanteData> = {};
     let collectingDescricoes = false;
     let descricoes: string[] = [];
+    let debito: number[] = [];
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
@@ -35,7 +36,7 @@ export class PdfProcessorService {
         if (match) {
             comprovantes.push({
               dataArrecadacao: match[0],
-              debito: current.debito ?? 0,
+              debito: current.debito ?? [],
               credito: current.credito ?? 0,
               total: current.total || '',
               descricoes: current.descricoes || [],
@@ -43,6 +44,7 @@ export class PdfProcessorService {
             });
             current = {};
             descricoes = [];
+            debito = [];
 
           }
       }
@@ -68,22 +70,28 @@ export class PdfProcessorService {
       if (collectingDescricoes) {
         if (line.startsWith('Totais')) {
           collectingDescricoes = false;
-          current.descricoes = agruparDescricoes(descricoes);
+          console.log('debito', debito);
+          current.descricoes = agruparDescricoes([...descricoes]);
+          current.debito = [...debito];
+          console.log('current descricoes', current.descricoes);
+          console.log('current debito', current.debito);
           descricoes.length = 0;
+          debito.length = 0;
 
         } else if (/^\d{4}.*\d{1,3},\d{2}$/.test(line)) {
           const historico = extrairHistorico(line);
           descricoes.push(historico);
-          current.debito = mapearDebito(historico);
+          const mapDebito = mapearDebito(historico);
+          debito.push(mapDebito);
           current.credito = 5;
         }
       }
     }
 
-    if (current.dataArrecadacao ||current.debito ||current.credito || current.total || descricoes.length) {
+    if (current.dataArrecadacao ||current.debito ||current.credito || current.total || current.descricoes) {
       comprovantes.push({
         dataArrecadacao: current.dataArrecadacao || '',
-        debito: current.debito ?? 0,
+        debito: current.debito || [],
         credito: current.credito ?? 0,
         total: current.total || '',
         descricoes:current.descricoes || [],
@@ -91,6 +99,7 @@ export class PdfProcessorService {
       });
     }
 
+    console.log('Comprovantes processados:', comprovantes);
 
     return { comprovantes };
   }

@@ -21,18 +21,23 @@ export class ProcessPdfUseCase {
     }
 
     const outputPath = path.join(outputDir, 'relatorio.xlsx');
-    console.log('result', result);
+    // console.log('result', result);
 
     const formattedData = result.comprovantes.flatMap((comp) =>
-      comp.descricoes.map((descricao,index) => ({
-        dataDeArrecadacao: comp.dataArrecadacao,
-        debito: comp.debito[index] ?? 0,
-        credito: comp.credito,
-        total: comp.total,
-        descricao,
-        divisao:1,
-      }))
+      comp.descricoes.flatMap((descricao, index) => {
+        const total = comp.total[index] ?? 0;
+        if (total === 0) return []; // Ignora este item
+        return [{
+          dataDeArrecadacao: comp.dataArrecadacao,
+          debito: comp.debito[index] ?? 0,
+          credito: comp.credito,
+          total,
+          descricao,
+          divisao: 1,
+        }];
+      })
     );
+    
 
     await ExcelGenerator.generate(formattedData, outputPath);
 

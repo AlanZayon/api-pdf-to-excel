@@ -347,3 +347,135 @@
 {"file":"uploads/1745421970266-RAFAELAPEREZDUARTEDASILVA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-23T15:26:10.270Z"}
 {"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-23T15:26:10.341Z"}
 {"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-23T15:26:10.342Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745515927931-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T17:32:07.935Z"}
+{"file":"uploads/1745515927931-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T17:32:07.937Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T17:32:08.302Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T17:32:08.303Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745516001454-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T17:33:21.458Z"}
+{"file":"uploads/1745516001454-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T17:33:21.459Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T17:33:21.691Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T17:33:21.692Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745518589300-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T18:16:29.303Z"}
+{"file":"uploads/1745518589300-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T18:16:29.310Z"}
+{"error":{},"filePath":"uploads/1745518589300-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-24T18:16:29.546Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745519262186-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T18:27:42.197Z"}
+{"file":"uploads/1745519262186-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T18:27:42.201Z"}
+{"error":{},"filePath":"uploads/1745519262186-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-24T18:27:42.431Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745519411188-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T18:30:11.192Z"}
+{"file":"uploads/1745519411188-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T18:30:11.194Z"}
+{"error":{},"filePath":"uploads/1745519411188-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-24T18:30:11.393Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745519444682-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T18:30:44.685Z"}
+{"file":"uploads/1745519444682-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T18:30:44.686Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T18:30:44.854Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T18:30:44.855Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745519737891-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T18:35:37.894Z"}
+{"file":"uploads/1745519737891-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T18:35:37.896Z"}
+{"error":{},"filePath":"uploads/1745519737891-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"error","message":"Erro ao processar PDF","timestamp":"2025-04-24T18:35:38.146Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745520127472-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T18:42:07.477Z"}
+{"file":"uploads/1745520127472-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T18:42:07.479Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T18:42:07.692Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T18:42:07.692Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745520898288-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T18:54:58.292Z"}
+{"file":"uploads/1745520898288-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T18:54:58.296Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T18:54:58.848Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T18:54:58.849Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745520971704-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T18:56:11.709Z"}
+{"file":"uploads/1745520971704-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T18:56:11.713Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T18:56:11.927Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T18:56:11.928Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745521317083-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T19:01:57.093Z"}
+{"file":"uploads/1745521317083-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T19:01:57.095Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T19:01:57.286Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T19:01:57.287Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745521508479-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T19:05:08.481Z"}
+{"file":"uploads/1745521508479-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T19:05:08.481Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T19:05:08.545Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T19:05:08.545Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745524622754-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T19:57:02.758Z"}
+{"file":"uploads/1745524622754-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T19:57:02.765Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T19:57:03.021Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T19:57:03.023Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745524817894-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T20:00:17.902Z"}
+{"file":"uploads/1745524817894-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T20:00:17.904Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T20:00:18.084Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T20:00:18.084Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745524957652-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T20:02:37.655Z"}
+{"file":"uploads/1745524957652-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T20:02:37.657Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T20:02:37.813Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T20:02:37.814Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745525191987-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T20:06:31.991Z"}
+{"file":"uploads/1745525191987-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T20:06:31.993Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T20:06:32.197Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T20:06:32.197Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745525967286-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T20:19:27.295Z"}
+{"file":"uploads/1745525967286-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T20:19:27.299Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T20:19:27.644Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T20:19:27.646Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745526027158-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T20:20:27.164Z"}
+{"file":"uploads/1745526027158-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T20:20:27.165Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T20:20:27.304Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T20:20:27.305Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745528586628-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:03:06.636Z"}
+{"file":"uploads/1745528586628-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:03:06.648Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:03:06.967Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:03:06.968Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745528884147-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:08:04.151Z"}
+{"file":"uploads/1745528884147-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:08:04.155Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:08:04.447Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:08:04.448Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745528915860-RAFAELAPEREZDUARTEDASILVA.pdf","timestamp":"2025-04-24T21:08:35.862Z"}
+{"file":"uploads/1745528915860-RAFAELAPEREZDUARTEDASILVA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:08:35.863Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:08:35.947Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:08:35.948Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745528950635-RAFAELAPEREZDUARTEDASILVA.pdf","timestamp":"2025-04-24T21:09:10.636Z"}
+{"file":"uploads/1745528950635-RAFAELAPEREZDUARTEDASILVA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:09:10.637Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:09:10.689Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:09:10.690Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745529242826-RAFAELAPEREZDUARTEDASILVA.pdf","timestamp":"2025-04-24T21:14:02.829Z"}
+{"file":"uploads/1745529242826-RAFAELAPEREZDUARTEDASILVA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:14:02.832Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:14:03.035Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:14:03.036Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745529247811-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","timestamp":"2025-04-24T21:14:07.857Z"}
+{"file":"uploads/1745529247811-COTINGUIBAEMPREENDIMENTOSLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:14:07.858Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:14:07.925Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:14:07.926Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745529257591-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:14:17.650Z"}
+{"file":"uploads/1745529257591-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:14:17.650Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:14:17.780Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:14:17.780Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745530352706-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:32:32.712Z"}
+{"file":"uploads/1745530352706-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:32:32.715Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:32:32.987Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:32:32.988Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745530973871-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:42:53.878Z"}
+{"file":"uploads/1745530973871-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:42:53.884Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:42:54.122Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:42:54.126Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745531149895-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:45:49.900Z"}
+{"file":"uploads/1745531149895-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:45:49.902Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:45:50.133Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:45:50.134Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745531202817-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:46:42.822Z"}
+{"file":"uploads/1745531202817-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:46:42.824Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:46:43.032Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:46:43.033Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745531359241-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:49:19.247Z"}
+{"file":"uploads/1745531359241-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:49:19.251Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:49:19.484Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:49:19.485Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745531678280-RAFAELAPEREZDUARTEDASILVA.pdf","timestamp":"2025-04-24T21:54:38.283Z"}
+{"file":"uploads/1745531678280-RAFAELAPEREZDUARTEDASILVA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:54:38.288Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:54:38.483Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:54:38.484Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745531734923-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:55:34.926Z"}
+{"file":"uploads/1745531734923-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:55:34.927Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:55:35.023Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:55:35.024Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745531972840-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-24T21:59:32.846Z"}
+{"file":"uploads/1745531972840-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T21:59:32.847Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T21:59:33.110Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T21:59:33.112Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745532095790-RAFAELAPEREZDUARTEDASILVA.pdf","timestamp":"2025-04-24T22:01:35.794Z"}
+{"file":"uploads/1745532095790-RAFAELAPEREZDUARTEDASILVA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T22:01:35.796Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T22:01:35.956Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T22:01:35.956Z"}

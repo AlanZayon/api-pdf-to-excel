@@ -5,7 +5,7 @@ export class ExcelGenerator {
     const workbook = new ExcelJS.Workbook();
     const worksheet = workbook.addWorksheet('Relatório');
 
-    console.log('Gerando Excel com os dados:', data);
+    // console.log('Gerando Excel com os dados:', data);
 
     if (data.length === 0) {
       throw new Error('Nenhum dado para gerar o Excel');

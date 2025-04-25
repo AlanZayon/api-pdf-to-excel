@@ -26,7 +26,7 @@ export class ProcessPdfUseCase {
     const formattedData = result.comprovantes.flatMap((comp) =>
       comp.descricoes.flatMap((descricao, index) => {
         const total = comp.total[index] ?? 0;
-        if (total === 0) return []; // Ignora este item
+        if (total === 0) return [];
         return [{
           dataDeArrecadacao: comp.dataArrecadacao,
           debito: comp.debito[index] ?? 0,
@@ -38,7 +38,6 @@ export class ProcessPdfUseCase {
       })
     );
     
-
     await ExcelGenerator.generate(formattedData, outputPath);
 
     logger.info('Excel gerado com sucesso', { path: outputPath });

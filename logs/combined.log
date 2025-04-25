@@ -479,3 +479,7 @@
 {"file":"uploads/1745532095790-RAFAELAPEREZDUARTEDASILVA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-24T22:01:35.796Z"}
 {"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-24T22:01:35.956Z"}
 {"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-24T22:01:35.956Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1745598725994-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","timestamp":"2025-04-25T16:32:06.001Z"}
+{"file":"uploads/1745598725994-MAQHINSOLUCOESTECNOLOGICASLTDA.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-04-25T16:32:06.003Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.xlsx","timestamp":"2025-04-25T16:32:06.278Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.xlsx\"}","timestamp":"2025-04-25T16:32:06.279Z"}

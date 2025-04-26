@@ -78,7 +78,6 @@ export class PdfProcessorService {
   }
 
   private extrairDataArrecadacao(line: string): void {
-    console.log('extrairDataArrecadacao', line);
     const dateRegex = /\d{2}\/\d{2}\/\d{4}/;
     const match = line.match(dateRegex);
     if (match) {
@@ -94,7 +93,6 @@ export class PdfProcessorService {
     
     const historico = extrairHistorico(line);
     this.descricoes.push(historico);
-    this.debitos.push(mapearDebito(historico));
   }
 
   private processarTotais() {
@@ -102,6 +100,8 @@ export class PdfProcessorService {
       [...this.descricoes],
       [...this.totais]
     );
+
+    this.debitos.push(...mapearDebito(descricoes));
 
     this.current = {
       ...this.current,
@@ -129,7 +129,7 @@ export class PdfProcessorService {
     if (!parsedValues?.somaMultaJuros) return;
 
     this.current.descricoes.push('PG. MULTA E JUROS XX');
-    this.current.debito.push(mapearDebito('PG. MULTA E JUROS XX'));
+    this.current.debito.push(...mapearDebito(['PG. MULTA E JUROS XX']));
     this.current.total.push(parsedValues.somaMultaJuros);
   }
 

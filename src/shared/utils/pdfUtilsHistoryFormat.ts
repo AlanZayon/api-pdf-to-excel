@@ -23,8 +23,10 @@ export function extrairHistorico(linha: string): string {
 }
 
 
-  export function mapearDebito(historico: string): number {
-    const h = historico.toUpperCase();
+export function mapearDebito(historico: string[]): number[] {
+  return historico.map(item => {
+    const h = item.toUpperCase();
+
     if (h.includes("SIMPLES NACIONAL")) return 531;
     if (h.includes("PIS")) return 179;
     if (h.includes("COFINS")) return 180;
@@ -33,8 +35,11 @@ export function extrairHistorico(linha: string): string {
     if (h.includes("ISS")) return 173;
     if (h.includes("MULTA E JUROS")) return 352;
     if (h.includes("MULTA")) return 350;
-    return 0; 
-  }
+
+    return 0;
+  });
+}
+
 
   export function agruparDescricoesEValores(descricoes: string[], totais: number[]): { descricoes: string[], totais: number[] } {
     const mapa = new Map<string, number>();

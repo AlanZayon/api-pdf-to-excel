@@ -20,7 +20,7 @@ export class ProcessPdfUseCase {
       fs.mkdirSync(outputDir);
     }
 
-    const outputPath = path.join(outputDir, 'relatorio.xlsx');
+    const outputPath = path.join(outputDir, 'relatorio.csv');
     // console.log('result', result);
 
     const formattedData = result.comprovantes.flatMap((comp) =>

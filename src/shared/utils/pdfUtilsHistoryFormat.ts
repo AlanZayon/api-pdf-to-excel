@@ -1,26 +1,53 @@
 export function extrairHistorico(linha: string): string {
-  const prioridades = [
+  const linhaMaiuscula = linha.toUpperCase();
+
+  console.log(linhaMaiuscula);
+
+  const termosComuns = [
     "SIMPLES NACIONAL",
     "MULTA E JUROS",
-    "MULTA",
+    "MULTA"
+  ];
+
+  const tributosComParcelamento = [
     "PIS",
     "COFINS",
     "IRPJ",
     "CSLL",
-    "ISS"
+    "ISS",
+    "IRRF"
   ];
 
-  let historico = "DESCONHECIDO";
+  const termosEspeciais: Record<string, string> = {
+    "CONTR PREV DESCONTA SEGURADO": "INSS",
+    "CP DESCONTADA SEGURADO ": "INSS",
+    "CONTRIB PREVID PATRONAL": "INSS",
+  };
+
+  const prioridades = [
+    ...termosComuns,
+    ...tributosComParcelamento,
+    ...Object.keys(termosEspeciais)
+  ];
 
   for (const termo of prioridades) {
-    if (linha.toUpperCase().includes(termo)) {
-      historico = termo;
-      break;
+    if (linhaMaiuscula.includes(termo)) {
+      let historico = termosEspeciais[termo] || termo;
+
+      const temParcelamento = tributosComParcelamento.includes(termo) && linhaMaiuscula.includes("PARCELAMENTO");
+
+      if (temParcelamento) {
+        historico += " PARCELAMENTO";
+      }
+
+      return `PG. ${historico} XX`;
     }
   }
 
-  return `PG. ${historico} XX`;
+  return "PG. DESCONHECIDO XX";
 }
+
+
 
 
 export function mapearDebito(historico: string[]): number[] {
@@ -34,7 +61,9 @@ export function mapearDebito(historico: string[]): number[] {
     if (h.includes("CSLL")) return 175;
     if (h.includes("ISS")) return 173;
     if (h.includes("MULTA E JUROS")) return 352;
-    if (h.includes("MULTA")) return 350;
+    if (h.includes("MULTA") || h.includes("DESCONHECIDO")) return 350;
+    if (h.includes("INSS")) return 191;
+    if (h.includes("IRRF")) return 178;
 
     return 0;
   });
@@ -63,14 +92,14 @@ export function mapearDebito(historico: string[]): number[] {
   
 
     export function parseLinhaHistorico(linha: string) {
-      const valores = [...linha.matchAll(/(-|\d{1,3},\d{2})/g)].map((v) => v[0]);
+      const valores = [...linha.matchAll(/(-|\d{1,3}(?:\.\d{3})*,\d{2})/g)].map((v) => v[0]);
     
       if (valores.length < 4) return null;
     
       const [principal, multa, juros, total] = valores.slice(-4);
     
       const toNumber = (val: string) =>
-        parseFloat((val === '-' ? '0,00' : val).replace(',', '.'));
+        parseFloat((val === '-' ? '0,00' : val).replace(/\./g, '').replace(',', '.'));
     
       return {
         principal: toNumber(principal),

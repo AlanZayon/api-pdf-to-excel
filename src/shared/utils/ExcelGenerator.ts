@@ -1,14 +1,13 @@
 import ExcelJS from 'exceljs';
+import fs from 'fs';
 
 export class ExcelGenerator {
   static async generate(data: Record<string, any>[], outputPath: string): Promise<void> {
     const workbook = new ExcelJS.Workbook();
     const worksheet = workbook.addWorksheet('Relatório');
 
-    // console.log('Gerando Excel com os dados:', data);
-
     if (data.length === 0) {
-      throw new Error('Nenhum dado para gerar o Excel');
+      throw new Error('Nenhum dado para gerar o CSV');
     }
 
     worksheet.columns = [
@@ -40,6 +39,18 @@ export class ExcelGenerator {
       });
     });
 
-    await workbook.xlsx.writeFile(outputPath);
+    // Gerar CSV
+    const csvContent = await this.convertToCSV(worksheet);
+    fs.writeFileSync(outputPath, csvContent);
+    console.log('Arquivo CSV gerado com sucesso!');
+  }
+
+  private static async convertToCSV(worksheet: ExcelJS.Worksheet): Promise<string> {
+    let csvContent = '';
+    worksheet.eachRow({ includeEmpty: true }, (row) => {
+      const rowValues = Array.isArray(row.values) ? row.values.slice(1) : [];
+      csvContent += rowValues.join(',') + '\n';
+    });
+    return csvContent;
   }
 }

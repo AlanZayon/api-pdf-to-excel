@@ -22,6 +22,7 @@ export function extrairHistorico(linha: string): string {
     "CONTR PREV DESCONTA SEGURADO": "INSS",
     "CP DESCONTADA SEGURADO ": "INSS",
     "CONTRIB PREVID PATRONAL": "INSS",
+    "CONTRIBUIÇÃO PREVID SEGURADOS": "INSS"
   };
 
   const prioridades = [

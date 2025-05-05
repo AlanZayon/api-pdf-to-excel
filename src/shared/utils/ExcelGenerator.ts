@@ -46,11 +46,29 @@ export class ExcelGenerator {
   }
 
   private static async convertToCSV(worksheet: ExcelJS.Worksheet): Promise<string> {
-    let csvContent = '';
-    worksheet.eachRow({ includeEmpty: true }, (row) => {
-      const rowValues = Array.isArray(row.values) ? row.values.slice(1) : [];
-      csvContent += rowValues.join(',') + '\n';
-    });
-    return csvContent;
+    const rows = [];
+    
+    for (const row of worksheet.getRows(1, worksheet.rowCount)!) {
+      const values = row.values as any[];
+      
+      // Remove undefined na posição 0, e formata os valores
+      const line = values
+        .slice(1)
+        .map(v => {
+          if (v instanceof Date) {
+            return v.toLocaleDateString('pt-BR'); // "DD/MM/AAAA"
+          } else if (typeof v === 'number') {
+            return v.toFixed(2).replace('.', ','); // "500,00"
+          } else {
+            return v ?? '';
+          }
+        })
+        .join(';');
+  
+      rows.push(line);
+    }
+  
+    return rows.join('\n');
   }
+  
 }

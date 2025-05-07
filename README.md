@@ -2,7 +2,7 @@
 
 ## 📌 Visão Geral
 
-API desenvolvida para automatizar o processamento de escrituração de comprovantes de arrecadação em PDF e geração de um arquivo `.csv` compatível com o sistema contábil **Domínio**.
+API desenvolvida para automatizar o processo de escrituração de comprovantes de arrecadação em PDF e geração de um arquivo `.csv` compatível com o sistema contábil **Domínio**.
 
 ---
 

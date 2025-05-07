@@ -20,7 +20,7 @@ Content-Type: multipart/form-data
 #### Form Data
 | Campo     | Tipo   | Obrigatório | Descrição                                |
 |-----------|--------|-------------|--------------------------------------------|
-| `pdfFile` | `file` | Sim         | Arquivo PDF     |
+| `pdfFile` | `file` | Sim         | Arquivo PDF no formato de nota de arrecadação (DARF/DAS) da Receita Federal|
 
 #### Resposta 200 OK
 ```json

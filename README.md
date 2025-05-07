@@ -2,7 +2,7 @@
 
 ## 📌 Visão Geral
 
-API desenvolvida para automatizar o processamento de comprovantes de arrecadação em PDF (formato PagtoWebImpREST) e geração de um arquivo `.csv` compatível com o sistema contábil **Domínio**.
+API desenvolvida para automatizar o processamento de comprovantes de arrecadação em PDF e geração de um arquivo `.csv` compatível com o sistema contábil **Domínio**.
 
 ---
 
@@ -20,7 +20,7 @@ Content-Type: multipart/form-data
 #### Form Data
 | Campo     | Tipo   | Obrigatório | Descrição                                |
 |-----------|--------|-------------|--------------------------------------------|
-| `pdfFile` | `file` | Sim         | Arquivo PDF no formato PagtoWebImpREST     |
+| `pdfFile` | `file` | Sim         | Arquivo PDF     |
 
 #### Resposta 200 OK
 ```json
@@ -130,8 +130,8 @@ src/
 ## ✅ Exemplo de CSV Gerado
 
 ```csv
-08/01/2024;1099;;145,20;CP DESCONTADA SEGURADO - CONTRIB INDIVIDUAL;1
-08/01/2024;;5,00;145,20;CP DESCONTADA SEGURADO - CONTRIB INDIVIDUAL;
+08/01/2024;191;;145,20;PG. INSS XX;1
+08/01/2024;;5;;145,20;PG. INSS XX;
 ```
 
 ---

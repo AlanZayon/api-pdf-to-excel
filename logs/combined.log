@@ -643,3 +643,51 @@
 {"file":"uploads/1746451167385-PagtoWebImpREST.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-05T13:19:27.398Z"}
 {"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-05T13:19:27.602Z"}
 {"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-05T13:19:27.602Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747402540509-PAGAMENTO 01.pdf","timestamp":"2025-05-16T13:35:40.521Z"}
+{"file":"uploads/1747402540509-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T13:35:40.533Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T13:35:40.782Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T13:35:40.783Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747403198128-PAGAMENTO 01.pdf","timestamp":"2025-05-16T13:46:38.133Z"}
+{"file":"uploads/1747403198128-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T13:46:38.139Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T13:46:38.363Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T13:46:38.364Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747403344589-PAGAMENTO 01.pdf","timestamp":"2025-05-16T13:49:04.592Z"}
+{"file":"uploads/1747403344589-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T13:49:04.594Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T13:49:04.730Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T13:49:04.731Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747404053388-PAGAMENTO 01.pdf","timestamp":"2025-05-16T14:00:53.391Z"}
+{"file":"uploads/1747404053388-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:00:53.396Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:00:53.552Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:00:53.552Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747404566656-PAGAMENTO 01.pdf","timestamp":"2025-05-16T14:09:26.658Z"}
+{"file":"uploads/1747404566656-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:09:26.662Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:09:26.800Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:09:26.801Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747405019988-PAGAMENTO 01.pdf","timestamp":"2025-05-16T14:16:59.991Z"}
+{"file":"uploads/1747405019988-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:16:59.994Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:17:00.171Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:17:00.171Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747405191947-PAGAMENTO 01.pdf","timestamp":"2025-05-16T14:19:51.950Z"}
+{"file":"uploads/1747405191947-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:19:51.952Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:19:52.122Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:19:52.123Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747405266705-PAGAMENTO 01.pdf","timestamp":"2025-05-16T14:21:06.708Z"}
+{"file":"uploads/1747405266705-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:21:06.710Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:21:06.845Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:21:06.846Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747405380578-a772a8aa-68db-4df6-9ccc-21b6768e295b.pdf","timestamp":"2025-05-16T14:23:00.586Z"}
+{"file":"uploads/1747405380578-a772a8aa-68db-4df6-9ccc-21b6768e295b.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:23:00.587Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:23:00.701Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:23:00.701Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747405864636-PAGAMENTO 01.pdf","timestamp":"2025-05-16T14:31:04.639Z"}
+{"file":"uploads/1747405864636-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:31:04.643Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:31:04.815Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:31:04.816Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747405933106-PAGAMENTO 01.pdf","timestamp":"2025-05-16T14:32:13.108Z"}
+{"file":"uploads/1747405933106-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:32:13.108Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:32:13.156Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:32:13.156Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747406222321-PAGAMENTO 01.pdf","timestamp":"2025-05-16T14:37:02.324Z"}
+{"file":"uploads/1747406222321-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:37:02.324Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:37:02.363Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:37:02.363Z"}

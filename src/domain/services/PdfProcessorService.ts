@@ -33,13 +33,17 @@ export class PdfProcessorService {
 
     const comprovantes: ComprovanteData[] = [];
     let collectingDescricoes = false;
+    let waitingFinish = false;
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
 
       if (line.includes('AgênciaEstabelecimentoValor Reservado/RestituídoReferência')) {
         this.extrairDataArrecadacao(lines[i + 1]);
+        if(waitingFinish) {
         this.finalizarComprovante(comprovantes);
+        waitingFinish = false;
+        }
         continue;
       }
 
@@ -52,18 +56,19 @@ export class PdfProcessorService {
         if (line.startsWith('Totais')) {
           collectingDescricoes = false;
           this.processarTotais();
-        } else if (/^\d{4}.*\d{1,3},\d{2}$/.test(line)) {
+        } else if (/^\d{4}(?=.*[A-Za-z]).*\d{1,3},\d{2}$/.test(line)) {
+          console.log('Linha de pagamento:', line);
           this.processarLinhaPagamento(line);
         }
       }
 
       if (line === 'Totais') {
         this.processarLinhaTotais(lines[i + 1]);
+        waitingFinish = true;
       }
     }
 
     this.finalizarComprovante(comprovantes);
-    console.log('Comprovantes processados:', comprovantes);
     return { comprovantes };
   }
 

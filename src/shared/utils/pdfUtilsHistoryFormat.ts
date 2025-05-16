@@ -1,8 +1,6 @@
 export function extrairHistorico(linha: string): string {
   const linhaMaiuscula = linha.toUpperCase();
 
-  console.log(linhaMaiuscula);
-
   const termosComuns = [
     "SIMPLES NACIONAL",
     "MULTA E JUROS",
@@ -22,7 +20,8 @@ export function extrairHistorico(linha: string): string {
     "CONTR PREV DESCONTA SEGURADO": "INSS",
     "CP DESCONTADA SEGURADO ": "INSS",
     "CONTRIB PREVID PATRONAL": "INSS",
-    "CONTRIBUIÇÃO PREVID SEGURADOS": "INSS"
+    "CONTRIBUIÇÃO PREVID SEGURADOS": "INSS",
+    "CP": "INSS"
   };
 
   const prioridades = [

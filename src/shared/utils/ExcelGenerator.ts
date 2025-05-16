@@ -39,7 +39,6 @@ export class ExcelGenerator {
       });
     });
 
-    // Gerar CSV
     const csvContent = await this.convertToCSV(worksheet);
     fs.writeFileSync(outputPath, csvContent);
     console.log('Arquivo CSV gerado com sucesso!');
@@ -51,14 +50,14 @@ export class ExcelGenerator {
     for (const row of worksheet.getRows(1, worksheet.rowCount)!) {
       const values = row.values as any[];
       
-      // Remove undefined na posição 0, e formata os valores
+
       const line = values
         .slice(1)
         .map(v => {
           if (v instanceof Date) {
-            return v.toLocaleDateString('pt-BR'); // "DD/MM/AAAA"
+            return v.toLocaleDateString('pt-BR'); 
           } else if (typeof v === 'number') {
-            return v.toFixed(2).replace('.', ','); // "500,00"
+            return v.toFixed(2).replace('.', ',');
           } else {
             return v ?? '';
           }

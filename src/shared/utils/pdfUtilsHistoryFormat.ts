@@ -17,11 +17,17 @@ export function extrairHistorico(linha: string): string {
   ];
 
   const termosEspeciais: Record<string, string> = {
+    "SIMP NAC": "SIMPLES NACIONAL",
     "CONTR PREV DESCONTA SEGURADO": "INSS",
     "CP DESCONTADA SEGURADO ": "INSS",
     "CONTRIB PREVID PATRONAL": "INSS",
     "CONTRIBUIÇÃO PREVID SEGURADOS": "INSS",
-    "CP": "INSS"
+    "CONTR PREVIDENCIÁRIA EMPREGADOR/EMPRESA": "INSS",
+    "CONTRIB PREV RISCO AMBIENTAL/APOSENT ESPECIAL": "INSS",
+    "CONTRIBUIÇÃO TERCEIROS": "INSS",
+    "CIDE": "INSS",
+    "CONTRIBUIÇÃO EMPRESA/EMPREGADOR": "INSS",
+    "CONTRIB TERC": "INSS",
   };
 
   const prioridades = [

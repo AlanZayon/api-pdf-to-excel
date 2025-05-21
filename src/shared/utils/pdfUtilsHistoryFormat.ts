@@ -19,7 +19,7 @@ export function extrairHistorico(linha: string): string {
   const termosEspeciais: Record<string, string> = {
     "SIMP NAC": "SIMPLES NACIONAL",
     "CONTR PREV DESCONTA SEGURADO": "INSS",
-    "CP DESCONTADA SEGURADO ": "INSS",
+    "CP": "INSS",
     "CONTRIB PREVID PATRONAL": "INSS",
     "CONTRIBUIÇÃO PREVID SEGURADOS": "INSS",
     "CONTR PREVIDENCIÁRIA EMPREGADOR/EMPRESA": "INSS",

@@ -57,7 +57,6 @@ export class PdfProcessorService {
           collectingDescricoes = false;
           this.processarTotais();
         } else if (/^\d{4}(?=.*[A-Za-z]).*\d{1,3},\d{2}$/.test(line)) {
-          console.log('Linha de pagamento:', line);
           this.processarLinhaPagamento(line);
         }
       }

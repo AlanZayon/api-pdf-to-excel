@@ -691,3 +691,7 @@
 {"file":"uploads/1747406222321-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:37:02.324Z"}
 {"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:37:02.363Z"}
 {"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:37:02.363Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1747406799374-PAGAMENTO 01.pdf","timestamp":"2025-05-16T14:46:39.381Z"}
+{"file":"uploads/1747406799374-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:46:39.384Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:46:39.578Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:46:39.578Z"}

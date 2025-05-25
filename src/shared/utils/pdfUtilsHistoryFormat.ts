@@ -28,6 +28,7 @@ export function extrairHistorico(linha: string): string {
     "CIDE": "INSS",
     "CONTRIBUIÇÃO EMPRESA/EMPREGADOR": "INSS",
     "CONTRIB TERC": "INSS",
+    "CONTRIB RISCO AMB/APOSENT ESPECIAL": "INSS",
   };
 
   const prioridades = [

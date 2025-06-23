@@ -29,6 +29,7 @@ export function extrairHistorico(linha: string): string {
     "CONTRIBUIÇÃO EMPRESA/EMPREGADOR": "INSS",
     "CONTRIB TERC": "INSS",
     "CONTRIB RISCO AMB/APOSENT ESPECIAL": "INSS",
+    "RET DE CONTRIBUICOES PAGT PJ A PJ DE DIR PRIV": "INSS
   };
 
   const prioridades = [

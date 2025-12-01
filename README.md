@@ -27,12 +27,12 @@ Teste a aplicação no ar: **https://front-das-darf.netlify.app/**
 
 ### Exemplo visual
 
-- Espaço para imagem (upload do PDF):
   ![Tela de upload do PDF](./images/Captura%20de%20tela%202025-12-01%20192839.png)
   Descrição: Tela onde você seleciona e envia o arquivo PDF para processamento.
 
-- Espaço para vídeo curto (fluxo completo):
 ![Vídeo de demonstração](./videos/eb778703-c0cf-44cf-ac5e-37d5a47698c0.gif)
+
+
   Descrição: Demonstração do envio do PDF e download do CSV.
 
 ---

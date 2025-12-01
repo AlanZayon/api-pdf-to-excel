@@ -103,7 +103,7 @@ Exemplo com curl:
 Após o download do CSV, as pastas uploads/ e outputs/ são limpas.
 
 ### Estrutura de pastas
-
+```bash
 src/
 ├── application/use-cases/process-pdf/
 │   ├── ProcessPdfCommand.ts
@@ -125,6 +125,7 @@ src/
 │   └── pdfUtilsHistoryFormat.ts
 └── shared/logging/
     └── logger.ts
+```
 
 ### Dependências principais
 - express
@@ -134,6 +135,7 @@ src/
 
 ### Exemplo de CSV gerado
 08/01/2024;191;;145,20;PG. INSS XX;1
+
 08/01/2024;;5;;145,20;PG. INSS XX;
 
 ### Observações importantes

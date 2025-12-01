@@ -1,95 +1,106 @@
-# 📄 API de Conversão de PDF  → CSV para Domínio
+# 📄 API de Conversão de PDF → CSV para Domínio
 
-## 📌 Visão Geral
+Transforme automaticamente comprovantes (DARF/DAS) em um arquivo CSV pronto para importação no sistema contábil Domínio.
 
-API desenvolvida para automatizar o processo de escrituração de comprovantes de arrecadação em PDF e geração de um arquivo `.csv` compatível com o sistema contábil **Domínio**.
+Este README está dividido em duas partes:
+- Para quem não é técnico: visão simples, como usar e exemplos visuais
+- Para quem é técnico: endpoints, arquitetura, requisitos e observações
 
 ---
 
-## 🔗 Endpoints
+## 👀 Para quem não é técnico
 
-### 📤 `POST /api/upload`
+### O que esta API faz
+- Recebe um PDF de comprovante (DARF/DAS)
+- Extrai as informações necessárias
+- Gera um arquivo CSV pronto para o Domínio
+- Permite baixar o arquivo gerado
 
-> Envia um arquivo PDF para ser processado.
+### Como usar (passo a passo)
+1) Abra o sistema que usa esta API (ou peça para o responsável técnico subir a API localmente)
+2) Envie o PDF pela opção “Enviar PDF”
+3) Aguarde o processamento
+4) Baixe o CSV gerado e importe no Domínio
 
-#### Headers
-```http
-Content-Type: multipart/form-data
-```
+### Exemplo visual
 
-#### Form Data
-| Campo     | Tipo   | Obrigatório | Descrição                                |
-|-----------|--------|-------------|--------------------------------------------|
-| `pdfFile` | `file` | Sim         | Arquivo PDF no formato de nota de arrecadação (DARF/DAS) da Receita Federal|
+- Espaço para imagem (upload do PDF):
+  ![Tela de upload do PDF](./images/Captura%20de%20tela%202025-12-01%20192839.png)
+  Descrição: Tela onde você seleciona e envia o arquivo PDF para processamento.
 
-#### Resposta 200 OK
-```json
+- Espaço para vídeo curto (fluxo completo):
+  [Assista ao vídeo de demonstração](./videos/eb778703-c0cf-44cf-ac5e-37d5a47698c0.gif)
+  Descrição: Demonstração do envio do PDF e download do CSV.
+
+---
+
+## 🧑‍💻 Para quem é técnico
+
+### Como executar localmente
+
+Requisitos:
+- Node.js 18+
+
+Passos:
+- Instalar dependências:
+  npm install
+- Rodar em desenvolvimento:
+  npm run dev
+- Rodar em produção:
+  npm run build && npm start
+
+Por padrão roda em http://localhost:3000.
+
+### Endpoints
+
+#### 📤 POST /api/upload
+Envia um arquivo PDF para processamento.
+
+Headers:
+- Content-Type: multipart/form-data
+
+Form Data:
+- pdfFile (file) obrigatório – PDF do comprovante (DARF/DAS)
+
+Exemplo de resposta 200:
 {
   "result": {
     "message": "Processamento concluído",
     "outputPath": "outputs/relatorio.csv"
   }
 }
-```
 
-#### Resposta 400
-```json
-{ "message": "Arquivo não enviado." }
-```
+Erros comuns:
+- 400 { "message": "Arquivo não enviado." }
+- 500 { "message": "Erro ao processar PDF", "error": { ... } }
 
-#### Resposta 500
-```json
-{ "message": "Erro ao processar PDF", "error": { ... } }
-```
+#### 📥 GET /api/download
+Baixa o último arquivo CSV gerado.
 
----
+Resposta:
+- Content-Type: text/csv
+- Content-Disposition: attachment
+- 404 se não houver arquivo disponível
 
-### 📥 `GET /api/download`
-
-> Faz o download do último arquivo `.csv` gerado.
-
-#### Resposta
-- Tipo: `text/csv`
-- Cabeçalho de download: `Content-Disposition: attachment`
-- Se não houver arquivo, responde `404 Not Found`.
-
-#### Exemplo com `curl`
-```bash
-curl -O http://localhost:3000/api/download
-```
+Exemplo com curl:
+ curl -O http://localhost:3000/api/download
 
 ---
 
-## 🔧 Funcionamento Interno
+### Funcionamento interno (resumo)
 
-### Upload + Processamento
+- UploadController chama ProcessPdfUseCase
+- PdfProcessorService lê e interpreta o PDF
+- ExcelGenerator gera o CSV com cabeçalhos:
+  dataDeArrecadacao;debito;credito;total;descricao;divisao
+- Para cada item são geradas duas linhas:
+  - 1 com o débito
+  - 1 com o crédito fixo = 5
 
-- `UploadController` chama `ProcessPdfUseCase`
-- `PdfProcessorService` lê e interpreta o conteúdo do PDF
-- `ExcelGenerator` gera `.csv` com estrutura:
+Após o download do CSV, as pastas uploads/ e outputs/ são limpas.
 
-```
-dataDeArrecadacao;debito;credito;total;descricao;divisao
-```
+### Estrutura de pastas
 
-Cada item gera **duas linhas**:
-- 1 com o **débito**
-- 1 com o **crédito fixo = 5**
-
----
-
-### Download + Limpeza
-
-- `DownloadController.downloadFile()`:
-  - Busca o único arquivo `.csv` em `outputs/`
-  - Faz o `res.download(filePath)`
-  - Em seguida, limpa pastas `uploads/` e `outputs/`
-
----
-
-## 📁 Estrutura de Pastas
-
-```
 src/
 ├── application/use-cases/process-pdf/
 │   ├── ProcessPdfCommand.ts
@@ -111,32 +122,51 @@ src/
 │   └── pdfUtilsHistoryFormat.ts
 └── shared/logging/
     └── logger.ts
-```
 
----
+### Dependências principais
+- express
+- multer
+- pdf-parse
+- exceljs
 
-## 🛠️ Requisitos
-
-- Node.js 18+
-- Pacotes:
-  - `express`
-  - `multer`
-  - `pdf-parse`
-  - `exceljs`
-  - `fs` / `path`
-
----
-
-## ✅ Exemplo de CSV Gerado
-
-```csv
+### Exemplo de CSV gerado
 08/01/2024;191;;145,20;PG. INSS XX;1
 08/01/2024;;5;;145,20;PG. INSS XX;
-```
+
+### Observações importantes
+- Após o download, o CSV e o PDF original são removidos automaticamente
+- Apenas um arquivo é mantido em cache (o último processado)
+- Garanta permissões de escrita nas pastas uploads/ e outputs/
 
 ---
 
-## 📌 Observações
+## 🧱 Roadmap simples (opcional)
+- Validação de layout de PDF (regras por tipo de documento)
+- Histórico de arquivos processados
+- Autenticação e limites de tamanho
+- Exportação adicional para XLSX
 
-- Após o download, o arquivo `.csv` e o `.pdf` original são excluídos automaticamente.
-- Apenas **um arquivo por vez** é mantido em cache (último processado).
+---
+
+## Este projeto demonstra:
+
+- Node.js / Express
+- Upload e parsing de PDF
+- Geração de CSV (exceljs)
+- Arquitetura modular
+- Middlewares e controllers
+- Clean architecture (aplicação, domínio, infraestrutura)
+- Logging
+- Manipulação de arquivos (multer)
+- Boas práticas de API
+
+## Desenvolvido 100% por mim, incluindo:
+
+- Arquitetura
+- Implementação da API
+- Processamento de PDF
+- Generator de CSV
+- Documentação e demonstração
+
+## 📄 Licença
+Distribuído sob a licença MIT. Consulte o arquivo LICENSE.

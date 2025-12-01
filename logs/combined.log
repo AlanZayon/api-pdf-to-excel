@@ -695,3 +695,19 @@
 {"file":"uploads/1747406799374-PAGAMENTO 01.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-05-16T14:46:39.384Z"}
 {"level":"info","message":"Excel gerado com sucesso","path":"/root/pdf-to-excel/outputs/relatorio.csv","timestamp":"2025-05-16T14:46:39.578Z"}
 {"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/root/pdf-to-excel/outputs/relatorio.csv\"}","timestamp":"2025-05-16T14:46:39.578Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1764627146522-exemplo_das_darf.pdf","timestamp":"2025-12-01T22:12:26.535Z"}
+{"file":"uploads/1764627146522-exemplo_das_darf.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-12-01T22:12:26.540Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/home/alanzayon/api-pdf-to-excel/outputs/PGTO.csv","timestamp":"2025-12-01T22:12:26.842Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/home/alanzayon/api-pdf-to-excel/outputs/PGTO.csv\"}","timestamp":"2025-12-01T22:12:26.842Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1764627202318-exemplo_das_darf.pdf","timestamp":"2025-12-01T22:13:22.323Z"}
+{"file":"uploads/1764627202318-exemplo_das_darf.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-12-01T22:13:22.324Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/home/alanzayon/api-pdf-to-excel/outputs/PGTO.csv","timestamp":"2025-12-01T22:13:22.500Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/home/alanzayon/api-pdf-to-excel/outputs/PGTO.csv\"}","timestamp":"2025-12-01T22:13:22.501Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1764628627222-exemplo_das_darf.pdf","timestamp":"2025-12-01T22:37:07.243Z"}
+{"file":"uploads/1764628627222-exemplo_das_darf.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-12-01T22:37:07.253Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/home/alanzayon/api-pdf-to-excel/outputs/PGTO.csv","timestamp":"2025-12-01T22:37:07.458Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/home/alanzayon/api-pdf-to-excel/outputs/PGTO.csv\"}","timestamp":"2025-12-01T22:37:07.459Z"}
+{"level":"info","message":"Iniciando processamento do PDF: uploads/1764628743121-exemplo_das_darf.pdf","timestamp":"2025-12-01T22:39:03.138Z"}
+{"file":"uploads/1764628743121-exemplo_das_darf.pdf","level":"info","message":"Iniciando processamento do PDF","timestamp":"2025-12-01T22:39:03.140Z"}
+{"level":"info","message":"Excel gerado com sucesso","path":"/home/alanzayon/api-pdf-to-excel/outputs/PGTO.csv","timestamp":"2025-12-01T22:39:03.244Z"}
+{"level":"info","message":"Processamento concluído com sucesso: {\"message\":\"Processamento concluído\",\"outputPath\":\"/home/alanzayon/api-pdf-to-excel/outputs/PGTO.csv\"}","timestamp":"2025-12-01T22:39:03.245Z"}

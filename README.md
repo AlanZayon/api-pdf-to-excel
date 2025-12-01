@@ -32,7 +32,7 @@ Teste a aplicação no ar: **https://front-das-darf.netlify.app/**
   Descrição: Tela onde você seleciona e envia o arquivo PDF para processamento.
 
 - Espaço para vídeo curto (fluxo completo):
-  [Assista ao vídeo de demonstração](./videos/eb778703-c0cf-44cf-ac5e-37d5a47698c0.gif)
+![Vídeo de demonstração](./videos/eb778703-c0cf-44cf-ac5e-37d5a47698c0.gif)
   Descrição: Demonstração do envio do PDF e download do CSV.
 
 ---

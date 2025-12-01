@@ -140,4 +140,3 @@ src/
 
 - Após o download, o arquivo `.csv` e o `.pdf` original são excluídos automaticamente.
 - Apenas **um arquivo por vez** é mantido em cache (último processado).
-- Projeto foi migrado para outra stack segue o link https://github.com/AlanZayon/ApiPdfCsv

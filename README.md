@@ -21,7 +21,7 @@ Teste a aplicação no ar: **https://front-das-darf.netlify.app/**
 
 ### Como usar (passo a passo)
 1) Abra o sistema que usa esta API (ou peça para o responsável técnico subir a API localmente)
-2) Envie o PDF pela opção “Enviar PDF”
+2) Envie o PDF pela opção “ARRASTE E SOLTE SEU PDF AQUI”
 3) Aguarde o processamento
 4) Baixe o CSV gerado e importe no Domínio
 

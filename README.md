@@ -116,12 +116,13 @@ flowchart TD
     F -->|Disponível para download| G[DownloadController]
     G --> A
 
-    subgraph TEMP[""]
-        H[uploads/] --> D
-        E --> I[outputs/]
+    %% Pastas temporárias
+    subgraph TEMP
+        H[uploads] --> D
+        E --> I[outputs]
     end
 
-    F -->|Remove uploads/ e outputs/| TEMP
+    F -->|Remove uploads e outputs| TEMP
 ```
 
 ### Project structure

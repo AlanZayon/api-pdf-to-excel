@@ -1,120 +1,142 @@
-# 📄 API de Conversão de PDF → CSV para Domínio
+# 📄 PDF → CSV API for Domínio Accounting System
 
-Transforme automaticamente comprovantes (DARF/DAS) em um arquivo CSV pronto para importação no sistema contábil Domínio.
+Automatically convert Brazilian tax payment receipts (DARF/DAS) from PDF into a CSV file ready to import into the Domínio accounting system.
 
-Este README está dividido em duas partes:
-- Para quem não é técnico: visão simples, como usar e exemplos visuais
-- Para quem é técnico: endpoints, arquitetura, requisitos e observações
-
----
-
-## 🚀 Live Demo
-Teste a aplicação no ar: **https://front-das-darf.netlify.app/**
-
-## 👀 Para quem não é técnico
-
-### O que esta API faz
-- Recebe um PDF de comprovante (DARF/DAS)
-- Extrai as informações necessárias
-- Gera um arquivo CSV pronto para o Domínio
-- Permite baixar o arquivo gerado
-
-### Como usar (passo a passo)
-1) Abra o sistema que usa esta API (ou peça para o responsável técnico subir a API localmente)
-2) Envie o PDF pela opção “ARRASTE E SOLTE SEU PDF AQUI ou clique para selecionar”
-3) Aguarde o processamento
-4) Baixe o CSV gerado e importe no Domínio
-
-### Exemplo visual
-
-  ![Tela de upload do PDF](./images/Captura%20de%20tela%202025-12-01%20192839.png)
-  Descrição: Tela onde você seleciona e envia o arquivo PDF para processamento, observe que existe um arquivo que voce pode baixar para poder testar.
-
-![Vídeo de demonstração](./videos/eb778703-c0cf-44cf-ac5e-37d5a47698c0.gif)
-
-
-  Descrição: Demonstração do envio do PDF e download do CSV.
+This README is split for two audiences:
+- Non-technical: simple overview, how to use, and visuals
+- Technical: how to run, endpoints, architecture, and notes
 
 ---
 
-## 🧑‍💻 Para quem é técnico
+## 👀 For non-technical users
 
-### Como executar localmente
+### What this API does
+- Receives a payment receipt PDF (DARF/DAS)
+- Extracts the necessary information
+- Generates a CSV file ready for Domínio
+- Allows you to download the generated file
 
-Requisitos:
+### How to use (step by step)
+1) Open the system that uses this API (or ask your technical contact to run the API locally)
+2) Send the PDF using the “Upload PDF” option
+3) Wait for processing to finish
+4) Download the generated CSV and import it into Domínio
+
+### Visual example
+
+- Upload page (choose the PDF to process):
+  ![PDF upload screen](./images/Captura%20de%20tela%202025-12-01%20192839.png)
+  Description: Screen where you select and send the PDF file for processing.
+
+- Short demo video (full flow):
+  [Watch the demo](./videos/eb778703-c0cf-44cf-ac5e-37d5a47698c0.gif)
+  Description: Demonstrates uploading the PDF and downloading the CSV.
+
+---
+
+## 🧑‍💻 For technical users
+
+### Run locally
+
+Requirements:
 - Node.js 18+
 
-Passos:
-- Instalar dependências:
+Commands:
+- Install dependencies:
   npm install
-- Rodar em desenvolvimento:
+- Run in development:
   npm run dev
-- Rodar em produção:
+- Build and run in production:
   npm run build && npm start
 
-Por padrão roda em http://localhost:3000.
+By default, the server runs at http://localhost:3000.
 
-### Endpoints
+### API Endpoints
 
 #### 📤 POST /api/upload
-Envia um arquivo PDF para processamento.
+Uploads a PDF for processing.
 
 Headers:
 - Content-Type: multipart/form-data
 
-Form Data:
-- pdfFile (file) obrigatório – PDF do comprovante (DARF/DAS)
+Form fields:
+- pdfFile (file) required – the payment receipt PDF (DARF/DAS)
 
-Exemplo de resposta 200:
+Example cURL:
+ curl -X POST \
+  -F "pdfFile=@/full/path/to/your-file.pdf" \
+  http://localhost:3000/api/upload
+
+Successful response (200):
 {
   "result": {
-    "message": "Processamento concluído",
+    "message": "Processing finished",
     "outputPath": "outputs/relatorio.csv"
   }
 }
 
-Erros comuns:
-- 400 { "message": "Arquivo não enviado." }
-- 500 { "message": "Erro ao processar PDF", "error": { ... } }
+Common errors:
+- 400 { "message": "File not provided." }
+- 500 { "message": "Failed to process PDF", "error": { ... } }
 
 #### 📥 GET /api/download
-Baixa o último arquivo CSV gerado.
+Downloads the last generated CSV.
 
-Resposta:
+Response:
 - Content-Type: text/csv
 - Content-Disposition: attachment
-- 404 se não houver arquivo disponível
+- 404 if there is no file available
 
-Exemplo com curl:
+Example cURL:
  curl -O http://localhost:3000/api/download
 
 ---
 
-### Funcionamento interno (resumo)
+### How it works (high level)
 
-- UploadController chama ProcessPdfUseCase
-- PdfProcessorService lê e interpreta o PDF
-- ExcelGenerator gera o CSV com cabeçalhos:
+- UploadController triggers ProcessPdfUseCase
+- PdfProcessorService reads and interprets the PDF
+- ExcelGenerator creates a CSV with the following headers (kept in Portuguese for Domínio compatibility):
   dataDeArrecadacao;debito;credito;total;descricao;divisao
-- Para cada item são geradas duas linhas:
-  - 1 com o débito
-  - 1 com o crédito fixo = 5
+- For each item two rows are generated:
+  - 1 with the debit value
+  - 1 with the fixed credit value = 5
 
-Após o download do CSV, as pastas uploads/ e outputs/ são limpas.
+After downloading the CSV, the uploads/ and outputs/ folders are cleaned up.
 
-### Estrutura de pastas
-```bash
+#### Flow diagram
+
+```mermaid
+flowchart TD
+    A[Usuário / Sistema] -->|Envia PDF| B[UploadController]
+    B --> C[ProcessPdfUseCase]
+    C --> D[PdfProcessorService]
+    D --> E[ExcelGenerator]
+    E --> F[CSV Gerado]
+    F -->|Disponível para download| G[DownloadController]
+    G --> A
+
+    subgraph TEMP[""]
+        H[uploads/] --> D
+        E --> I[outputs/]
+    end
+
+    F -->|Remove uploads/ e outputs/| TEMP
+```
+
+### Project structure
+
 src/
 ├── application/use-cases/process-pdf/
 │   ├── ProcessPdfCommand.ts
 │   └── ProcessPdfUseCase.ts
 ├── domain/services/
 │   ├── PdfProcessorService.ts
-│   └── FileService.ts
+│   └── fileService.ts
 ├── infrastructure/
 │   ├── controllers/
 │   │   ├── UploadController.ts
-│   │   └── DownloadController.ts
+│   │   └── downloadController.ts
 │   ├── middlewares/
 │   │   └── uploadMiddleware.ts
 │   └── routes/
@@ -127,51 +149,53 @@ src/
     └── logger.ts
 ```
 
-### Dependências principais
+### Main dependencies
 - express
 - multer
 - pdf-parse
 - exceljs
 
-### Exemplo de CSV gerado
+### Sample generated CSV
 08/01/2024;191;;145,20;PG. INSS XX;1
 
 08/01/2024;;5;;145,20;PG. INSS XX;
 
-### Observações importantes
-- Após o download, o CSV e o PDF original são removidos automaticamente
-- Apenas um arquivo é mantido em cache (o último processado)
-- Garanta permissões de escrita nas pastas uploads/ e outputs/
+Notes:
+- Header names and field separators are aligned to the expected Domínio import format.
+- The decimal separator in examples may appear as a comma depending on locale.
+
+### Important notes
+- After download, the CSV and original PDF are automatically removed
+- Only the last processed file is kept temporarily
+- Ensure the application has write permissions to uploads/ and outputs/
 
 ---
 
-## 🧱 Roadmap simples (opcional)
-- Validação de layout de PDF (regras por tipo de documento)
-- Histórico de arquivos processados
-- Autenticação e limites de tamanho
-- Exportação adicional para XLSX
+## 🧱 Simple roadmap (optional)
+- PDF layout validation (rules per document type)
+- History of processed files
+- Authentication and file size limits
+- Additional export to XLSX
 
 ---
 
-## Este projeto demonstra:
-
+## This project showcases
 - Node.js / Express
-- Upload e parsing de PDF
-- Geração de CSV (exceljs)
-- Arquitetura modular
-- Middlewares e controllers
-- Clean architecture (aplicação, domínio, infraestrutura)
+- PDF upload and parsing
+- CSV generation (exceljs)
+- Modular architecture
+- Middlewares and controllers
+- Clean architecture (application, domain, infrastructure)
 - Logging
-- Manipulação de arquivos (multer)
-- Boas práticas de API
+- File handling (multer)
+- API best practices
 
-## Desenvolvido 100% por mim, incluindo:
+## Built 100% by me, including
+- Architecture
+- API implementation
+- PDF processing
+- CSV generator
+- Documentation and demo
 
-- Arquitetura
-- Implementação da API
-- Processamento de PDF
-- Generator de CSV
-- Documentação e demonstração
-
-## 📄 Licença
-Distribuído sob a licença MIT. Consulte o arquivo LICENSE.
+## 📄 License
+Distributed under the MIT License. See the LICENSE file.

@@ -126,7 +126,7 @@ flowchart TD
 ```
 
 ### Project structure
-
+```
 src/
 ├── application/use-cases/process-pdf/
 │   ├── ProcessPdfCommand.ts
